@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">Folio <b>.</b></div>
+        <div class="items">
+          <ul class="navItems">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <a href="#"> <i class="fab fa-linkedin"></i></a>
+          <a href="#"> <i class="fab fa-instagram"></i></a>
+          <a href="#"> <i class="fab fa-github"></i></a>
+        </div>
+      </nav>
+
+      <div class="wrapper">
+        <div class="cols col0">
+          <span class="topline">Hello</span>
+          <h1>I'm <span class="multiText"></span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            nulla dolore dolores magnam, eum architecto. Veniam assumenda eum
+            minima consequatur, laboriosam incidunt nulla optio quas quam sit
+            deleniti. Illo, voluptatum!
+          </p>
+          <div class="btns">
+            <button class="">Hire ME</button>
+            <button class="">My CV</button>
+          </div>
+        </div>
+        <div class="cols col1">
+          <div class="imgbox">
+            <img src="port (2).png" id="splash" />
+            <img src="2ca066bd-04fc-4631-9c40-e4e7dae212fa.png" id="me" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="
+    https://cdn.jsdelivr.net/npm/typed-js@0.2.3/core/index.min.js
+    "></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typeEffect = new Typed(".multiText", {
+        strings: ["Coder", "Desinger", "Youtuber"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
+</html>
